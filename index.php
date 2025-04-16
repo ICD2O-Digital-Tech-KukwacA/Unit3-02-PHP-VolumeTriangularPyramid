@@ -22,23 +22,22 @@
     <?php 
 			echo "<h1>Volume of a Triangular Pyramid</h1>";
 			echo "<h3>This program will calculate the volume of </h3>";
-      echo "<h4>Formula</h4>";
+      echo "<h4>Formula</h4>" "<br>";
       echo "<h3>V = (1/3) * a * b * h"
 		?>
 		<!-- form to get the bases and height from the user -->
     <form action="./results.php" method="post" target="results">
       <label for="base">Base(a) (cm):</label>
-      <input type="float" id="base1" placeholder="Enter the base..." name="base"><br><br>
+      <input type="float" id="base1" placeholder="Enter value..." name="base"><br><br>
       <label for="base-height">Base(b) (cm):</label>
-      <input type="float" id="base2" placeholder="Enter the base..." name="base-height"><br><br>
+      <input type="float" id="base2" placeholder="Enter value..." name="base-height"><br><br>
       <label for="height">Height (cm):</label>
-      <input type="float" id="height" placeholder="Enter the height..." name="height"><br><br>
-      <input type="submit" value="Calculate Area">
+      <input type="float" id="height" placeholder="Enter value..." name="height"><br><br>
+      <input type="submit" value="Calculate Volume">
     </form>
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">
-        The volume of the triangular pyramid is <? php echo="$volume" ?><sup>3</sup>
       </iframe>
 	</body>
 </html>
