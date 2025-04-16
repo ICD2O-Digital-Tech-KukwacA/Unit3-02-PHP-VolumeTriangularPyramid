@@ -21,9 +21,9 @@
 		<!-- php echo to print the html to the page -->
     <?php 
 			echo "<h1>Volume of a Triangular Pyramid</h1>";
-			echo "<h3>This program will calculate the volume of </h3>";
-      echo "<h4>Formula</h4>" "<br>";
-      echo "<h3>V = (1/3) * a * b * h"
+			echo "<h3>This program will calculate the volume of a Triangular Pyramid</h3>";
+      echo "<h4>Formula</h4>";
+      echo "<h3>V = (1/3) * a * b * h";
 		?>
 		<!-- form to get the bases and height from the user -->
     <form action="./results.php" method="post" target="results">
@@ -38,6 +38,7 @@
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">
+        The volume of the triangular pyramid is <? php echo="$volume" ?>
       </iframe>
 	</body>
 </html>
