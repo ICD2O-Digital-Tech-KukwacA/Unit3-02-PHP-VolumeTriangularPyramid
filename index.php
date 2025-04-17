@@ -38,6 +38,7 @@
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">
+        <div id="$volume"></div>
       </iframe>
 	</body>
 </html>
