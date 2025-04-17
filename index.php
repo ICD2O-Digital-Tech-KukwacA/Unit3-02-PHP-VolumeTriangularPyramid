@@ -23,7 +23,7 @@
 			echo "<h1>Volume of a Triangular Pyramid</h1>";
 			echo "<h3>This program will calculate the volume of a Triangular Pyramid</h3>";
       echo "<h4>Formula</h4>";
-      echo "<h3>V = (1/3) * a * b * h";
+      echo "<h3>V = (1/3) * a * b * h</h3>";
 		?>
 		<!-- form to get the bases and height from the user -->
     <form action="./results.php" method="post" target="results">
