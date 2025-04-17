@@ -38,7 +38,6 @@
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">
-        The volume of the triangular pyramid is <? php echo="$volume" ?>
       </iframe>
 	</body>
 </html>
