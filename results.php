@@ -10,4 +10,4 @@
     $volume = round($volume, 2);
 ?>
 	<h3>Results:</h3>
-	The volume of a Triangular Pyramid is <?php echo "$volume" ?>cm<sup>2</sup>.
+	The volume of a Triangular Pyramid is <?php echo "$volume" ?>cm<sup>3</sup>.
